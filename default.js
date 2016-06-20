@@ -7,11 +7,8 @@ var message;
 
 while(true)
 {
- if(answer<0　||　answer>2)
- {
-  message='0～2を入れてね';
- }
- else if(answer===number)
+
+  if(answer===number)
  {
   message='あたり';
   break;
@@ -24,7 +21,10 @@ while(true)
  {
   message='もっと小さいよ';
  }
- 
+  else
+ {
+  message='0～2を入れてね';
+ }
 }
 document.getElementById('choice').textContent=message;
  
