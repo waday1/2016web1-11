@@ -1,13 +1,13 @@
 var number = Math.floor(Math.random()*3);
 
-var answer = parseInt(window.prompt('数あてゲーム　0～2'));
+var answer;
 
 var message;
 
 
 while(true)
 {
-
+  answer = parseInt(window.prompt('数あてゲーム　0～2'))
   if(answer===number)
  {
   message='あたり';
