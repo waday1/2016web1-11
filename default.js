@@ -18,7 +18,7 @@ else if(answer>number)
 }
 else
 {
- message='0～2を入れてね'
+ message='0～2を入れてね';
 }
 
 document.getElementById('choice').textContent=message;
