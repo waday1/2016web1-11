@@ -7,7 +7,7 @@ var message;
 
 while(true)
 {
- if(answer<0||answer>2)
+ if(answer<0　||　answer>2)
  {
   message='0～2を入れてね';
  }
