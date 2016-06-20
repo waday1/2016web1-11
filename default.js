@@ -1,1 +1,3 @@
-# 2016web1-11
+var result=window.confirm('あ');
+
+document.getElementById('choise').textContent=result;
