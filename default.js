@@ -7,7 +7,7 @@ var message;
 
 while(true)
 {
-  answer = parseInt(window.prompt('数あてゲーム　0～2'))
+  answer = parseInt(window.prompt('数あてゲーム　0～2'));
   if(answer===number)
  {
   message='あたり';
