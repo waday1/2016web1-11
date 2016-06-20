@@ -15,14 +15,17 @@ while(true)
  else if(answer<number)
  {
  message='もっと大きいよ';
+ document.getElementById('choice').textContent=message;
  }
  else if(answer>number)
  {
   message='もっと小さいよ';
+  document.getElementById('choice').textContent=message;
  }
   else
  {
   message='0～2を入れてね';
+  document.getElementById('choice').textContent=message;
  }
 }
 document.getElementById('choice').textContent=message;
